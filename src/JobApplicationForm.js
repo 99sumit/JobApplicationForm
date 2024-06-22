@@ -102,7 +102,7 @@ const JobApplicationForm = () => {
     }
 
     if (Object.keys(errors).length === 0) {
-      alert('Form submitted successfully!');
+      alert('Form submitted successfully.Check console for summary!');
       console.log(formData); 
     } else {
       setFormErrors(errors);
